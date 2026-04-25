@@ -1,0 +1,15 @@
+{
+  "name": "ip-worker",
+  "version": "1.0.0",
+  "description": "A minimal Cloudflare Worker that returns your public IP address as plain text.",
+  "author": "Tianyu (Sky) Lu <tianyu@lu.fm>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}
